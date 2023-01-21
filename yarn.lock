@@ -670,7 +670,7 @@
     webpack "5.75.0"
     webpack-node-externals "3.0.0"
 
-"@nestjs/common@^7.0.0 || ^8.0.0 || ^9.0.0", "@nestjs/common@^8.0.0 || ^9.0.0", "@nestjs/common@^9.0.0":
+"@nestjs/common@^7.0.0 || ^8.0.0 || ^9.0.0", "@nestjs/common@^7.0.8 || ^8.0.0 || ^9.0.0", "@nestjs/common@^8.0.0 || ^9.0.0", "@nestjs/common@^9.0.0":
   version "9.2.1"
   resolved "https://registry.npmjs.org/@nestjs/common/-/common-9.2.1.tgz"
   integrity sha512-nZuo3oDsSSlC5mti/M2aCWTEIfHPGDXmBwWgPeCpRbrNz3IWd109rkajll+yxgidVjznAdBS9y00JkAVJblNYw==
@@ -702,6 +702,11 @@
     tslib "2.4.1"
     uuid "9.0.0"
 
+"@nestjs/mapped-types@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@nestjs/mapped-types/-/mapped-types-1.2.0.tgz"
+  integrity sha512-NTFwPZkQWsArQH8QSyFWGZvJ08gR+R4TofglqZoihn/vU+ktHEJjMqsIsADwb7XD97DhiD+TVv5ac+jG33BHrg==
+
 "@nestjs/platform-express@^9.0.0":
   version "9.2.1"
   resolved "https://registry.npmjs.org/@nestjs/platform-express/-/platform-express-9.2.1.tgz"
@@ -730,6 +735,17 @@
   integrity sha512-8HwEcDuUka5sGR4eIv98tEWRTzNI87KGkoHLbmFx9rk1/OB3nF2gqvtLzU7WMLdgan0mNQdDzeBoVwAmedMEtQ==
   dependencies:
     uuid "8.3.2"
+
+"@nestjs/swagger@^6.1.4":
+  version "6.1.4"
+  resolved "https://registry.npmjs.org/@nestjs/swagger/-/swagger-6.1.4.tgz"
+  integrity sha512-kE8VjR+NaoKqxg8XqM/YYfALScPh4AcoR8Wywga8/OxHsTHY+MKxqvTpWp7IhCUWSA6xT8nQUpcC9Rt7C+r7Hw==
+  dependencies:
+    "@nestjs/mapped-types" "1.2.0"
+    js-yaml "4.1.0"
+    lodash "4.17.21"
+    path-to-regexp "3.2.0"
+    swagger-ui-dist "4.15.5"
 
 "@nestjs/testing@^9.0.0":
   version "9.2.1"
@@ -3284,7 +3300,7 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-js-yaml@^4.1.0:
+js-yaml@^4.1.0, js-yaml@4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz"
   integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
@@ -4478,6 +4494,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+swagger-ui-dist@4.15.5:
+  version "4.15.5"
+  resolved "https://registry.npmjs.org/swagger-ui-dist/-/swagger-ui-dist-4.15.5.tgz"
+  integrity sha512-V3eIa28lwB6gg7/wfNvAbjwJYmDXy1Jo1POjyTzlB6wPcHiGlRxq39TSjYGVjQrUSAzpv+a7nzp7mDxgNy57xA==
 
 symbol-observable@4.0.0:
   version "4.0.0"
